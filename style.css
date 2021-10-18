@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+section.main{
+    width: 100%;
+    min-height: 100%;
+    background-image: url("imagens/carrovrum.png");
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.logo{
+    position: relative;
+    top:-40px;
+}
+
+.menu{
+    margin-top: 14px;
+}
+
+.menu a{
+    display: inline-block;
+    margin: 0 13px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 5px;
+}
+
+.menu a:hover{
+    border-radius: 5px;
+    background-color:rgba(200, 200, 200, 0.3);
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo h2{
+    color: black;
+    font-size: 45px;
+    letter-spacing: 1.2px;
+}
+
+.titulo p{
+    color:rgb(71, 71, 71);
+}
+
+.titulo p a{
+    color:rgb(71, 71, 71);
+}
+
+.btn{
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.btn a{
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    background-color:rgb(54, 54, 54) ;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
